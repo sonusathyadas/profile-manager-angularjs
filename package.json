@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "cp ./data/orig-db.json ./data/db.json && json-server --watch ./data/db.json",
+    "server": "json-server --watch ./data/db.json",
     "setup": "bower install",
     "start": "cd src && serve"
   },
