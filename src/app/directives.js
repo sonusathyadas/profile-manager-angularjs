@@ -1,5 +1,5 @@
 angular
-  .module("codecraft")
+  .module("bytestream")
   .directive("ccCard", function() {
     return {
       restrict: "AE",

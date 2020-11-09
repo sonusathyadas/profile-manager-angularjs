@@ -1,5 +1,5 @@
 angular
-  .module("codecraft")
+  .module("bytestream")
   .controller("PersonCreateController", function(
     $scope,
     $state,

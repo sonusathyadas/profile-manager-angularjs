@@ -1,8 +1,8 @@
 angular
-  .module("codecraft")
+  .module("bytestream")
   .factory("Contact", function($resource) {
     return $resource(
-      "http://localhost:3000/contacts/:id",
+      "http://localhost:3000/profiles/:id",
       {id: "@id"},
       {
         update: {

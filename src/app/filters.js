@@ -1,4 +1,4 @@
-angular.module("codecraft").filter("defaultImage", function() {
+angular.module("bytestream").filter("defaultImage", function() {
   return function(input, param) {
     if (!param) {
       param = "/img/avatar.png";

@@ -1,5 +1,5 @@
 angular
-  .module("codecraft")
+  .module("bytestream")
   .config(function($stateProvider, $urlRouterProvider) {
     $stateProvider
       .state("list", {

@@ -1,5 +1,5 @@
 angular
-  .module("codecraft", [
+  .module("bytestream", [
     "ngResource",
     "infinite-scroll",
     "angularSpinner",
